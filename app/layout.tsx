@@ -40,8 +40,8 @@ export const metadata: Metadata = {
     title: "Saizuo",
     description:
       "Innovative Young Technologist working on projects, currently working at magnimont. Focused on interfaces and experiences, working remotely from New Delhi, India.",
-    url: "https://www.victorwilliams.me/",
-    siteName: "www.victorwilliams.me",
+    url: "",
+    siteName: "",
     images: [
       {
         url: "https://raw.githubusercontent.com/Saizuo/Saizuo/main/image%2011.png",
