@@ -41,7 +41,7 @@ const ProjectCard = ({
         }`}
       />
       <div
-        className={`absolute top-0 text-[#0E1016] ${
+        className={`absolute top-0 text-[#000000] ${
           id % 2 === 0 ? "left-0 ml-8 lg:ml-14" : "right-0 mr-8 lg:mr-14"
         } mt-6 flex  items-center justify-center gap-4 lg:mt-10`}
       >

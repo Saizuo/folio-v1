@@ -11,11 +11,11 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Victor Williams — Frontend Engineer",
+  title: "Saizuo",
   description:
-    "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+    "Innovative Young Technologist working on projects, currently working at magnimont. Focused on interfaces and experiences, working remotely from New Delhi, India.",
   generator: "Next.js",
-  applicationName: "Victor Williams",
+  applicationName: "Saizuo",
   keywords: [
     "freelance",
     "developer",
@@ -37,17 +37,17 @@ export const metadata: Metadata = {
   ],
   colorScheme: "dark",
   openGraph: {
-    title: "Victor Williams — Frontend Engineer",
+    title: "Saizuo",
     description:
-      "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+      "Innovative Young Technologist working on projects, currently working at magnimont. Focused on interfaces and experiences, working remotely from New Delhi, India.",
     url: "https://www.victorwilliams.me/",
     siteName: "www.victorwilliams.me",
     images: [
       {
-        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+        url: "https://raw.githubusercontent.com/Saizuo/Saizuo/main/image%2011.png",
         width: 1200,
         height: 630,
-        alt: "Victor Williams — Frontend Engineer",
+        alt: "Saizuo",
       },
     ],
     locale: "en-US",
@@ -55,13 +55,13 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Victor Williams — Frontend Engineer",
+    title: "Saizuo",
     description:
-      "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    creator: "victorwill__",
+      "Innovative Young Technologist working on projects, currently working at magnimont. Focused on interfaces and experiences, working remotely from New Delhi, India.",
+    creator: "Saizuo",
     creatorId: "1243720976552144897",
     images: [
-      "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+      "https://raw.githubusercontent.com/Saizuo/Saizuo/main/image%2011.png",
     ],
   },
   robots: {
@@ -88,7 +88,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body
-        className={`${syne.className} scroll-smooth scrollbar-thin scrollbar-track-[#0E1016] scrollbar-thumb-[#212531]`}
+        className={`${syne.className} scroll-smooth scrollbar-thin scrollbar-track-[#000000] scrollbar-thumb-[#212531]`}
       >
         {children}
         <Analytics />
