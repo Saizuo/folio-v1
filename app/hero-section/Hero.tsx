@@ -14,12 +14,12 @@ const Hero = () => {
       initial="initial"
       animate="animate"
     >
-      <motion.div className="absolute left-0 top-0 right-0 bottom-0 h-full w-full bg-[#0E1016] mix-blend-color"></motion.div>
+      <motion.div className="absolute left-0 top-0 right-0 bottom-0 h-full w-full bg-[#000000] mix-blend-color"></motion.div>
 
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://drive.google.com/file/d/1Mmwl-FRGPm5QVe3AjtukJr_Jpc366Ear/view"
+            href="https://magnimonnt.com"
             target="_blank"
             aria-label="View Resume"
           >
@@ -27,7 +27,7 @@ const Hero = () => {
               className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
               variants={bodyAnimation}
             >
-              VIEW RESUME
+              MY SERVICES
             </motion.button>
           </Link>
         </div>
@@ -58,7 +58,7 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://twitter.com/victorwill__"
+            href="https://twitter.com/VikasNathJha"
             target="_blank"
             aria-label="View Twitter Profile"
           >
@@ -76,10 +76,15 @@ const Hero = () => {
         <div
           className={`relative flex flex-col items-center justify-center ${monaSans.className}   `}
         >
-          <AnimatedWords
-            title="VICTOR WILLIAMS"
-            style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
-          />
+<AnimatedWords
+  title="VIKAS"
+  style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9"
+/>
+<AnimatedWords
+  title="NATH_JHA"
+  style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9"
+/>
+
           <motion.div
             className="absolute bottom-[-110px] mx-auto sm:bottom-[-100px] md:bottom-[-130px] lg:bottom-[-150px]"
             variants={imageAnimation}
@@ -88,7 +93,7 @@ const Hero = () => {
               src={profile}
               priority
               alt="Victor's headshot"
-              data-blobity-tooltip="Fine boy"
+              data-blobity-tooltip="Dayum! That's me!"
               data-blobity-invert="false"
               className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
             />
@@ -106,14 +111,14 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Frontend Engineer and Product Designer, prev at{" "}
+            Studying at XYZ , self employed at{" "}
             <Link
-              href="https://www.mono.co/"
+              href="https://Magnimont.com"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
               aria-label="Crown Branding Agency Website"
             >
-              Mono,
+              Magnimont,
             </Link> currently available for work.
           </p>
         </motion.div>
@@ -123,8 +128,8 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on interfaces and experiences, working remotely from Lagos,
-            Nigeria.
+            Focused on interfaces and experiences, working remotely from New Delhi,
+            India.
           </p>
         </motion.div>
       </div>
