@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Saizuo",
     description:
-      "Innovative Young Technologist working on projects, currently working at magnimont. Focused on interfaces and experiences, working remotely from New Delhi, India.",
+      "An innovative young technologist, currently engaged with Magnimont, diligently works on various projects with a focus on interfaces and user experiences. Operating remotely from New Delhi, India, this individual is committed to delivering exceptional results.",
     url: "",
     siteName: "",
     images: [
