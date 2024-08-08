@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://magnimonnt.com"
+            href="https://magnimont.com"
             target="_blank"
             aria-label="View Resume"
           >
@@ -46,7 +46,7 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+            href="https://www.linkedin.com/in/vikasnathjha/"
             target="_blank"
             aria-label="View LinkedIn Profile"
           >
