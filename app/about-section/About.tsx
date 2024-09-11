@@ -58,7 +58,7 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "MagnimontㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤItemy"
+                  "Magnimont and providing consultancy services to various clients."
                 }
               />
             </div>
