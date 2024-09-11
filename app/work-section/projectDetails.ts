@@ -12,23 +12,23 @@ export type ProjectProps = {
 export const devProjects = [
   {
     id: 0,
-    name: "Magnimont Forum",
+    name: "Magnimont",
     description:
-      "A forum website where users can ask questions, answer questions, and share their knowledge with others.",
+      "Magnimont offers tailored digital solutions to elevate brands and drive success. Our experts craft custom websites and much more.",
     technologies: ["Next.js", "Tailwind", "MarkDown"],
     github: "https://github.com/Magnimont/Forum",
-    demo: "https://forum.magnimont.com",
+    demo: "https://magnimont.com",
     image: require(".//../../public/projects/flixify.png"),
     available: true,
   },
   {
     id: 1,
-    name: "MemeOn",
+    name: "NoError Studios",
     description:
-      "A website that allows users to create and share memes with others. Users can also like and comment on memes.",
+      "My First digital agency website and its landing page, it was later rebranded to Magnimont.",
     technologies: ["React", "CSS", "JS"],
     github: "https://github.com/magnimont",
-    demo: "https://memeon.xyz",
+    demo: "https://noerror.studio",
     image: require(".//../../public/projects/skywatch-new.webp"),
     available: true,
   },

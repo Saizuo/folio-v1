@@ -34,7 +34,7 @@ const Hero = () => {
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
-            href="Saizuo"
+            href="https://github.com/saizuo"
             target="_blank"
             aria-label="View GitHub Profile"
           >
@@ -55,18 +55,6 @@ const Hero = () => {
               variants={bodyAnimation}
             >
               LN
-            </motion.p>
-          </Link>
-          <Link
-            href="https://twitter.com/VikasNathJha"
-            target="_blank"
-            aria-label="View Twitter Profile"
-          >
-            <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
-              variants={bodyAnimation}
-            >
-              TW
             </motion.p>
           </Link>
         </div>
@@ -111,7 +99,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Studying at XYZ , self employed at{" "}
+          Providing consultation services at{" "}
             <Link
               href="https://Magnimont.com"
               target="_blank"
@@ -119,7 +107,7 @@ const Hero = () => {
               aria-label="Crown Branding Agency Website"
             >
               Magnimont,
-            </Link> currently available for work.
+            </Link> open to new engagements.
           </p>
         </motion.div>
 
@@ -128,8 +116,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on interfaces and experiences, working remotely from New Delhi,
-            India.
+          Focused on interfaces and experiences, providing remote services internationally.
           </p>
         </motion.div>
       </div>
